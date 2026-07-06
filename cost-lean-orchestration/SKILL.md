@@ -162,15 +162,15 @@ they do not decide.
 
 ## Anti-patterns (each one is a real failure mode)
 
-- ❌ Main model runs broad greps/globs and reads result files itself "just to
+-  Main model runs broad greps/globs and reads result files itself "just to
   get oriented." Orientation is exactly what a mapper subagent is for.
-- ❌ `cat`-ing a 2,000-line file into main context to find one function.
-- ❌ One giant subagent with a 10-item mission returning a 5,000-token essay.
-- ❌ Subagent returns prose without file:line refs, forcing re-reads later.
-- ❌ Downgrading a subagent to Haiku to save a little more. The savings are
+-  `cat`-ing a 2,000-line file into main context to find one function.
+-  One giant subagent with a 10-item mission returning a 5,000-token essay.
+-  Subagent returns prose without file:line refs, forcing re-reads later.
+-  Downgrading a subagent to Haiku to save a little more. The savings are
   marginal; the missed-detail risk is not. Sonnet, always.
-- ❌ Sequentially spawning agents that had no dependency on each other.
-- ❌ Delegating the final synthesis, verdict, or user-facing answer.
+-  Sequentially spawning agents that had no dependency on each other.
+-  Delegating the final synthesis, verdict, or user-facing answer.
 
 ## Session shape (reference)
 
