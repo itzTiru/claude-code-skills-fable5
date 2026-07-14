@@ -13,6 +13,10 @@ What's here:
 - human-article-writing: long-form drafts and rewrites that don't read like a language
   model wrote them. It bans the usual tells and refuses to invent sources, stats or
   anecdotes.
+- fable-book: points at a PDF, Markdown, or HTML source and re-authors it as an
+  iPad-ready book in the Anthropic Fable theme: warm ivory pages at the iPad Air 11"
+  aspect ratio, serif typography, tappable contents, bookmarks, hand-drawn butterfly
+  cover art, and botanical vignettes on pages with room to spare.
 - cost-lean-orchestration: keeps the expensive model out of bulk reading. Exploration
   goes to cheaper subagents under a strict return format, and the main model spends its
   tokens on reasoning and the final code.
